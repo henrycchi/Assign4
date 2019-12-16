@@ -1,0 +1,8 @@
+version:  "3.7"
+services:
+  flask-application:
+    image: henrycchi/Assign4
+    container_name: spellcheck
+    restart: always
+    ports:
+      - "8080:8080"
